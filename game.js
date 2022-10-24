@@ -82,7 +82,7 @@ function gameOver(){
     $("body").removeClass('game-over');
 }, 200);
 
-  $("h1").text("Game over, you got to level " + level + ". Press any key to restart.");
+  $("h1").text("Game over, level " + level + ". Press any key to restart.");
   level = 0;
 }
 
